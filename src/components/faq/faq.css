@@ -1,0 +1,16 @@
+#question{
+    padding: 128px 0;
+}
+.ques-left h2{
+    color: #282938;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 16px;
+}
+.ques-left a{
+    color: #2405F2;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}

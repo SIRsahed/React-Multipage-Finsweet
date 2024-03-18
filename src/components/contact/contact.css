@@ -1,0 +1,91 @@
+#contact-form{
+    margin-bottom: 128px;
+}
+.contact-text{
+    position: relative;
+    max-height: 691px;
+    background: url(../../assets/contact.png) no-repeat center / cover;
+    padding: 96px 96px 261px 96px;
+}
+.contact-text::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #1C1E5380;
+    height: 100%;
+    width: 100%;
+}
+.contact-text h2{
+    color:#FFF;
+    font-family: Poppins;
+    font-size: 54px;
+    font-weight: 600;
+    padding-bottom: 24px;
+}
+.contact-text p{
+    color:#FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.contact-item{
+    background-color: #1C1E53;
+    padding: 75px 96px 48px 96px;
+    max-height: 691px;
+}
+.contact-item h2{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+.contact-item p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-bottom: 40px;
+}
+.contact-item input{
+    font-family: Poppins;
+    color: #fff;
+    width: 432px;
+    height: 64px;
+    padding-left: 32px;
+    margin-bottom: 16px;
+    outline: none;
+    background-color: transparent;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.contact-item button{
+    border: none;
+    margin-top: 23px;
+    color: #1B1C2B;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 16px 150px;
+    background-color: #FCD980;
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+    margin-bottom: 18px;
+}
+.contact-item a{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 94px;
+}

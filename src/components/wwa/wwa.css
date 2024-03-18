@@ -1,0 +1,18 @@
+#wwa{
+    padding: 80px 0 128px 0;
+}
+.wwa-content h2{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 34px;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+.wwa-content p{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 80px;
+    opacity: 0.7;
+}

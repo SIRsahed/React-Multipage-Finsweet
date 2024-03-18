@@ -1,0 +1,38 @@
+#footer-menu{
+    padding: 32px 0;
+    background-color: #fff;
+}
+.fm-left p{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.9;
+}
+.fm-right ul{
+    display: flex;
+}
+.fm-right ul li a{
+    margin-left: 25px;
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+@media (max-width: 575px){
+    .fm-left p{
+        text-align: center;
+    }
+    .fm-right ul {
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px 0 0 0;
+    }
+    .fm-right ul li a {
+        margin: 0 10px;
+        font-size: 14px;
+    } 
+}

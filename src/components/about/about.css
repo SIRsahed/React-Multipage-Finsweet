@@ -1,0 +1,26 @@
+#about{
+    padding: 220px 0 128px 0;
+}
+.about-text h4{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 8px;
+}
+.about-text h2{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+    padding-bottom: 31px;
+}
+.about-text p{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.7;
+}

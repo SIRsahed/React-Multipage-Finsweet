@@ -1,0 +1,124 @@
+#our-projects{
+    padding: 128px 0;
+}
+.op-header{
+    display: flex;
+    justify-content: space-between;
+}
+.op-header h2{
+    color: #282938;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: Poppins;
+    padding-bottom: 64px;
+}
+.op-header a{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Poppins;
+    padding-bottom: 64px;
+}
+.op-1 img{
+    width: 100%;
+}
+.op-1{
+    position: relative;
+}
+.op-1::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    transition: 0.8s;
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -ms-transition: 0.8s;
+    -o-transition: 0.8s;
+}
+.op-1:hover::before{
+    width: 100%;
+}
+.overlay-1{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    opacity: 0;
+    transition: 0.9s;
+    -webkit-transition: 0.9s;
+    -moz-transition: 0.9s;
+    -ms-transition: 0.9s;
+    -o-transition: 0.9s;
+}
+.op-1:hover .overlay-1{
+    opacity: 1;
+}
+.overlay-1 h2{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    padding-bottom: 112px;
+    font-family: Poppins;
+}
+.overlay-1 a{
+    color: #FCD980;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Poppins;
+}
+.op-2{
+    margin-bottom: 22px;
+    position: relative;
+}
+.op-2 img{
+    width: 100%;
+}
+.op-2::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    transition: 0.8s;
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -ms-transition: 0.8s;
+    -o-transition: 0.8s;
+}
+.op-2:hover::before{
+    width: 100%;
+}
+.overlay-2{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    opacity: 0;
+    transition: 0.9s;
+    -webkit-transition: 0.9s;
+    -moz-transition: 0.9s;
+    -ms-transition: 0.9s;
+    -o-transition: 0.9s;
+}
+.op-2:hover .overlay-2{
+    opacity: 1;
+}
+.overlay-2 h2{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    padding-bottom: 30px;
+    font-family: Poppins;
+}
+.overlay-2 a{
+    color: #FCD980;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Poppins;
+}
